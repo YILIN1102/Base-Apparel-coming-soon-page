@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+  <header>
+    <div class="header grid">
+      <img class="logo" src="./images/logo.svg">
+      <img class="hero_desktop" src="./images/hero-desktop.jpg">
+      <img class="hero_mobile" src="./images/hero-mobile.jpg">
+    </div>
+  </header>
+
+  <main>
+    <div class="welcome-text grid">
+      <h1>We're <span> coming soon</span></h1>
+      <p id="welcome-text">
+        Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+    </div>
+    <form action="" id="errorBorder" onsubmit="event.preventDefault(); validateEmail();" requited>
+      <div class="grid">
+        <input type="email" id="email" name="email" value="" placeholder="Email Address">
+        <button class="btn submit">
+          <img src="./images/icon-arrow.svg" alt="arrow">
+        </button>
+        <div class="error" id="errorIcon">
+          <img src="./images/icon-error.svg" alt="">
+        </div>
+      </div>
+      <p class="error" id="errorMsg">
+        Please provide a valid email
+      </p>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/YILIN1102">Yi Lin</a>.
+    </p>
+  </footer>
+  <!-- <script src="app.js"></script> -->
+</body>
+
+</html>
