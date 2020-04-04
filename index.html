@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <link rel="stylesheet" href="./styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
@@ -29,30 +30,30 @@
         Hello fellow shoppers! We're currently building our new fashion store.
         Add your email below to stay up-to-date with announcements and our launch deals.</p>
     </div>
-    <form action="" id="errorBorder" onsubmit="event.preventDefault(); validateEmail();" requited>
+    <form action="">
       <div class="grid">
-        <input type="email" id="email" name="email" value="" placeholder="Email Address">
-        <button class="btn submit">
+        <input type="email" id="email" placeholder="Email Address" requited>
+        <button id="validate" class="btn submit">
           <img src="./images/icon-arrow.svg" alt="arrow">
         </button>
-        <div class="error" id="errorIcon">
-          <img src="./images/icon-error.svg" alt="">
+        <div class="result" id="errorIcon">
+          <!-- <img src="./images/icon-error.svg" alt=""> -->
         </div>
-      </div>
-      <p class="error" id="errorMsg">
-        Please provide a valid email
-      </p>
+        <p class="result" id="result">
+          <!-- Please provide a valid email -->
+        </p>
       </div>
     </form>
   </main>
+  <form>
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/YILIN1102">Yi Lin</a>.
+      </p>
+    </footer>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://github.com/YILIN1102">Yi Lin</a>.
-    </p>
-  </footer>
-  <!-- <script src="app.js"></script> -->
+    <script src="./app.js"></script>
 </body>
 
 </html>
