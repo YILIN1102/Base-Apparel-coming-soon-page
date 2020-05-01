@@ -139,8 +139,8 @@ footer .attribution {
 @media (min-width: 1440px) 
 {
     body {
+        hight: 100vh;
         max-width: 1440px;
-        max-height: 800px;
     }
     header .logo {
         margin: 4rem 0 0 15rem;
@@ -153,9 +153,6 @@ footer .attribution {
     header .hero_mobile {
         display: none;
     }
-    main  {
-    height: 100vh;
-}
     main .grid {
         display: grid;
         grid-template-columns: repeat(9,1fr);
