@@ -63,9 +63,6 @@ header .logo {
 header .hero_desktop {
     display:none;
 }
-main  {
-    height: 100vh;
-}
 main h1 {
     margin: 3rem;
 }
@@ -156,6 +153,9 @@ footer .attribution {
     header .hero_mobile {
         display: none;
     }
+    main  {
+    height: 100vh;
+}
     main .grid {
         display: grid;
         grid-template-columns: repeat(9,1fr);
