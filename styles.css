@@ -13,8 +13,12 @@
 * {
     box-sizing: border-box;
     text-decoration: 0;
+    padding: 0;
+    margin: 0;
 }
-
+html {
+    height: 100vh;
+}
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
 
@@ -176,7 +180,9 @@ footer .attribution {
         padding: -0.3rem;
     }
     footer .attribution {
+        text-align: center;
         padding-top: 1rem;
+        margin-right: 45rem;
     }
     main #errorIcon {
         padding: 0rem 0rem 0rem 13rem;
