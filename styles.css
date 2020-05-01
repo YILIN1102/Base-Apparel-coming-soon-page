@@ -18,6 +18,8 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
 
+body { height: 100vh; }
+
 body {
     font-family: 'Josefin Sans', sans-serif;
     color: var(--DesaturatedRed);
@@ -28,6 +30,7 @@ main h1{
     font-size: 2.8em;
     font-weight: 300;
     text-align: center;
+    hight
 }
 main span {
     font-weight:400;
